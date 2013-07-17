@@ -26,7 +26,6 @@ public class Customs extends Activity {
     //Customs App Code ...
 
     ImageView image = (ImageView) findViewById(R.id.logo_view);
-    image.setImageResource(R.drawable.wodem);
 
 
 }
