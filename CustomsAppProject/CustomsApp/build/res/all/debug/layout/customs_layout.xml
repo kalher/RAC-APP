@@ -5,12 +5,39 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".Customs">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@id/logo_view"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:src="@drawable/wodem"
+            />
 
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@id/grossProfitCost"
+            android:layout_below="@id/logo_view"
+            android:layout_centerHorizontal="true"
+            android:hint="Gross Profit Cost"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@id/hsCode"
+            android:layout_below="@id/grossProfitCost"
+            android:layout_centerHorizontal="true"
+            android:hint="HS code"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@id/rulesOfOrigin"
+            android:layout_below="@id/hsCode"
+            android:layout_centerHorizontal="true"
+            android:hint="Rules Of Origin"
+            android:layout_gravity="bottom"/>
 </RelativeLayout>

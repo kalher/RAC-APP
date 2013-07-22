@@ -1,13 +1,17 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1374049684000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
-1374049684000 644 7287130b339d86c1d86627078c70292cc5064016 /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/layout/customs_layout.xml
+1374480327000 3943 08abbbb5157ec6a4ee2bf166732742bb7ff2f9f3 /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-hdpi/wodem.jpg
+1374480327000 1642 953bb878287fb8cd6c44d71d42c6015d215328f3 /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/layout/customs_layout.xml
 1374049684000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-xhdpi/ic_launcher.png
-1374049684000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/values-v11/values.xml
-1374049684000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1374480327000 276 a8c32eb9e696c4e873e4c319b57bdfd12f2eecda /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/layout/gross_profit_cost.xml
 1374049684000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-mdpi/ic_launcher.png
 1374049684000 217 f02e000d05a079992d2dba18039216c1e6b8784f /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/values-v14/values.xml
+1374480328000 981 7c53e3d66654bec775d7b96a1e69e3b6d67220db /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/values/values.xml
+1374480327000 276 a8c32eb9e696c4e873e4c319b57bdfd12f2eecda /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/layout/rules_of_origin.xml
+1374049684000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1374049684000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/values-v11/values.xml
+1374049684000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1374480327000 276 a8c32eb9e696c4e873e4c319b57bdfd12f2eecda /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/layout/HS_code.xml
 1374049684000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/menu/customs.xml
-1374049684000 788 125f167d195847818ac92d24ce3246533b38e314 /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/values/values.xml
 1374049684000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/all/debug/values-sw720dp-land/values.xml

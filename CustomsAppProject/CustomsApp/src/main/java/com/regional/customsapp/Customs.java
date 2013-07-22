@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class Customs extends Activity {
@@ -13,6 +14,12 @@ public class Customs extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.customs_layout);
+
+        ImageView image = (ImageView) findViewById(R.id.logo_view);
+
+        TextView grossProfit = (TextView) findViewById(R.id.grossProfitCost);
+        TextView harmonisedCode = (TextView) findViewById(R.id.hsCode);
+        TextView rulesOfOrigin = (TextView) findViewById(R.id.rulesOfOrigin);
     }
 
 
@@ -25,7 +32,8 @@ public class Customs extends Activity {
 
     //Customs App Code ...
 
-    ImageView image = (ImageView) findViewById(R.id.logo_view);
+
+
 
 
 }

@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<item name="logo_view" type="id">com.regional.CustomsApp</item></resources>
+<item name="logo_view" type="id">com.regional.CustomsApp</item><item name="grossProfitCost" type="id"/><item name="hsCode" type="id"/><item name="rulesOfOrigin" type="id"/></resources>

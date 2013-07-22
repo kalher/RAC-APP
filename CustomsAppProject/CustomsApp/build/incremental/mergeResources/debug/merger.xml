@@ -104,6 +104,44 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="rules_of_origin"
+                path="/home/brian/RAC-APP/CustomsAppProject/CustomsApp/src/main/res/layout/rules_of_origin.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="HS_code"
+                path="/home/brian/RAC-APP/CustomsAppProject/CustomsApp/src/main/res/layout/HS_code.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wodem"
+                path="/home/brian/RAC-APP/CustomsAppProject/CustomsApp/src/main/res/drawable-hdpi/wodem.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                path="/home/brian/RAC-APP/CustomsAppProject/CustomsApp/src/main/res/values/ids.xml"
+                qualifiers="" >
+                <item
+                    name="hsCode"
+                    type="id"/>
+                <item
+                    name="logo_view"
+                    type="id">
+com.regional.CustomsApp
+                </item>
+                <item
+                    name="grossProfitCost"
+                    type="id"/>
+                <item
+                    name="rulesOfOrigin"
+                    type="id"/>
+            </file>
+            <file
+                name="gross_profit_cost"
+                path="/home/brian/RAC-APP/CustomsAppProject/CustomsApp/src/main/res/layout/gross_profit_cost.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/home/brian/RAC-APP/CustomsAppProject/CustomsApp/build/res/rs/debug" />
     </dataSet>
