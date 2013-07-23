@@ -15,29 +15,71 @@
             android:layout_gravity="bottom"
             android:src="@drawable/wodem"
             />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical"
+            tools:ignore="NewApi"
+            android:id="@+id/view"
+            android:layout_below="@id/logo_view"
+            android:layout_alignLeft="@id/grossProfitCost"/>
 
-    <EditText
+    <Button
             android:layout_width="fill_parent"
-            android:layout_height="100dp"
+            android:layout_height="60dp"
             android:id="@id/grossProfitCost"
+            android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/logo_view"
             android:layout_centerHorizontal="true"
-            android:hint="Gross Profit Cost"/>
+            android:hint="Gross Profit Cost"
+            tools:ignore="NewApi"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical"
+            tools:ignore="NewApi"
+            android:layout_alignLeft="@+id/view"
+            android:layout_below="@id/grossProfitCost"/>
 
-    <EditText
+
+    <Button
             android:layout_width="fill_parent"
-            android:layout_height="100dp"
+            android:layout_height="60dp"
             android:id="@id/hsCode"
+            android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/grossProfitCost"
             android:layout_centerHorizontal="true"
-            android:hint="HS code"/>
+            android:hint="HS code"
+            tools:ignore="NewApi"/>
 
-    <EditText
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical"
+            tools:ignore="NewApi"
+            android:layout_alignTop="@id/rulesOfOrigin"
+            android:layout_alignLeft="@id/rulesOfOrigin"/>
+
+    <Button
             android:layout_width="fill_parent"
-            android:layout_height="100dp"
+            android:layout_height="60dp"
             android:id="@id/rulesOfOrigin"
+            android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/hsCode"
             android:layout_centerHorizontal="true"
             android:hint="Rules Of Origin"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="bottom"
+            tools:ignore="NewApi"/>
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical"
+            tools:ignore="NewApi"
+            android:id="@+id/view"
+            android:layout_below="@id/rulesOfOrigin"
+            android:layout_alignLeft="@id/rulesOfOrigin"/>
+
 </RelativeLayout>
