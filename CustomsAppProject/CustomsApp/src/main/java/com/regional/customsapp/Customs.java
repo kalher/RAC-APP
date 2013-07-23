@@ -37,6 +37,12 @@ public class Customs extends Activity {
         });
 
         Button rulesOfOrigin = (Button) findViewById(R.id.rulesOfOrigin);
+        rulesOfOrigin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.rules_of_origin);
+            }
+        });
 
 
 
