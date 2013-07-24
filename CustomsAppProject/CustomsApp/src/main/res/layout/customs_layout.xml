@@ -28,6 +28,7 @@
             android:layout_width="fill_parent"
             android:layout_height="60dp"
             android:id="@id/grossProfitCost"
+
             android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/logo_view"
             android:layout_centerHorizontal="true"

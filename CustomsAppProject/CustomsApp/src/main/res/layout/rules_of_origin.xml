@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-</LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Rules of Origin"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+    <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/searchView"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:queryHint="search by section"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/searchView">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="431dp"
+                    android:id="@+id/listView"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
