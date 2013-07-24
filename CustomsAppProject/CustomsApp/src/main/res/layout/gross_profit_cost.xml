@@ -7,29 +7,41 @@
         android:layout_height="match_parent"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin">
+        android:background="#17170432"
+
+        >
 
     <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
             android:text="Gross Product Cost"
-            android:layout_alignParentLeft="true"
-            android:gravity="center"
             android:textSize="30sp"
             android:textIsSelectable="false"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
 
     <TextView
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:text="Results"
             android:id="@+id/textView5"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
             android:textIsSelectable="false"
             android:layout_above="@+id/textView2"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical"
+            tools:ignore="NewApi"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/textView5"/>
 
     <TextView
             android:layout_width="match_parent"
@@ -88,11 +100,37 @@
             android:text="Calculate"
             android:background="?android:attr/selectableItemBackground"
             android:id="@+id/button"
-            android:gravity="center"
             tools:ignore="NewApi"
+            android:textStyle="bold"
             android:layout_marginTop="13dp"
             android:layout_below="@+id/editText5"
             android:layout_alignLeft="@+id/editText5"
+            />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical"
+            tools:ignore="NewApi"
+            android:layout_below="@+id/button"
             android:layout_alignRight="@+id/editText5"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@id/backButton1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView"
+            android:layout_marginBottom="13dp"/>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:background="?android:attr/dividerVertical"
+    tools:ignore="NewApi"
+    android:id="@+id/view"
+    android:layout_alignBottom="@id/backButton1"
+    android:layout_alignLeft="@id/backButton1"/>
 
 </RelativeLayout>

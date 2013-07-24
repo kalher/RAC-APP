@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 
 public class Customs extends Activity {
@@ -16,6 +15,7 @@ public class Customs extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.customs_layout);
 
         ImageView image = (ImageView) findViewById(R.id.logo_view);
@@ -24,7 +24,8 @@ public class Customs extends Activity {
         grossProfit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.gross_profit_cost);
+                Intent intent=new Intent(Customs.this,GrossProfit.class);
+                startActivity(intent);
             }
         });
 
@@ -32,7 +33,8 @@ public class Customs extends Activity {
         harmonisedCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.hs_code);
+                Intent intent=new Intent(Customs.this,HsCode.class);
+                startActivity(intent);
             }
         });
 
@@ -40,9 +42,11 @@ public class Customs extends Activity {
         rulesOfOrigin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.rules_of_origin);
+                Intent intent=new Intent(Customs.this,RulesOfOrigin.class);
+                startActivity(intent);
             }
         });
+
 
 
 

@@ -5,15 +5,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Customs">
+    tools:context=".Customs"
+    android:background="#17170432">
 
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:id="@id/logo_view"
+            android:icon="@drawable/appskmymoneyicon"
             android:layout_centerHorizontal="true"
             android:layout_gravity="bottom"
-            android:src="@drawable/wodem"
+            android:src="@drawable/moneyicon"
             />
     <View
             android:layout_width="match_parent"

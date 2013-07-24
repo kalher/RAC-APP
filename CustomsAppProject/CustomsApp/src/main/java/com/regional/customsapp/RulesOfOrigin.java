@@ -9,18 +9,16 @@ import android.widget.Button;
 /**
  * Created by kjjj on 7/24/13.
  */
-public class GrossProfit extends Activity {
-
+public class RulesOfOrigin extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gross_profit_cost);
+        setContentView(R.layout.rules_of_origin);
 
-        Button button=(Button) findViewById(R.id.backButton1);
-
-        button.setOnClickListener(new View.OnClickListener() {
+        Button button =(Button)findViewById(R.id.backbutton2);
+        button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-             Intent intent=new Intent(GrossProfit.this,Customs.class);
+                Intent intent=new Intent(RulesOfOrigin.this,Customs.class);
                 startActivity(intent);
             }
         });

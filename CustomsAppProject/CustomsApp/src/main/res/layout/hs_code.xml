@@ -30,7 +30,7 @@
 
     <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="800dp"
+            android:layout_height="300dp"
             android:id="@+id/scrollView"
             android:layout_below="@+id/searchView"
             android:layout_alignParentLeft="true"
@@ -43,11 +43,21 @@
 
             <ListView
                     android:layout_width="wrap_content"
-                    android:layout_height="389dp"
+                    android:layout_height="235dp"
                     android:id="@+id/listView"
                     android:layout_below="@+id/searchView"
                     android:layout_alignParentLeft="true"/>
         </LinearLayout>
     </ScrollView>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@id/backButton3"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignRight="@+id/scrollView"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

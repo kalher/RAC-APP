@@ -7,5 +7,7 @@
     </string>
     <string name="hello_world" >Hello world!
     </string><string name="gross"/>
+    <string name="self_destruct"/>
+    <string name="back_button">Back</string>
 
 </resources>

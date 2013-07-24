@@ -9,21 +9,18 @@ import android.widget.Button;
 /**
  * Created by kjjj on 7/24/13.
  */
-public class GrossProfit extends Activity {
-
+public class HsCode extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gross_profit_cost);
+        setContentView(R.layout.hs_code);
 
-        Button button=(Button) findViewById(R.id.backButton1);
-
+        Button button=(Button)findViewById(R.id.backButton3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             Intent intent=new Intent(GrossProfit.this,Customs.class);
+                Intent intent=new Intent(HsCode.this,Customs.class);
                 startActivity(intent);
             }
         });
-
     }
 }
