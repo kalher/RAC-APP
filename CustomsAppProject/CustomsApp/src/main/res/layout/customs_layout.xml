@@ -6,7 +6,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Customs"
-    android:background="#17170432">
+    >
 
     <ImageView
             android:layout_width="match_parent"
@@ -34,7 +34,9 @@
             android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/logo_view"
             android:layout_centerHorizontal="true"
-            android:hint="Gross Profit Cost"
+            android:text="Gross Profit Cost"
+
+
             tools:ignore="NewApi"/>
     <View
             android:layout_width="match_parent"
@@ -52,7 +54,7 @@
             android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/grossProfitCost"
             android:layout_centerHorizontal="true"
-            android:hint="HS code"
+            android:text="HS code"
             tools:ignore="NewApi"/>
 
 
@@ -71,7 +73,7 @@
             android:background="?android:attr/selectableItemBackground"
             android:layout_below="@id/hsCode"
             android:layout_centerHorizontal="true"
-            android:hint="Rules Of Origin"
+            android:text="Rules Of Origin"
             android:layout_gravity="bottom"
             tools:ignore="NewApi"/>
 
@@ -84,5 +86,15 @@
             android:id="@+id/view"
             android:layout_below="@id/rulesOfOrigin"
             android:layout_alignLeft="@id/rulesOfOrigin"/>
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/cancelButtonOnCus"
+
+            android:src="@drawable/dialog_focused"
+            android:layout_gravity="center|right"
+            android:layout_below="@+id/view"
+            android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

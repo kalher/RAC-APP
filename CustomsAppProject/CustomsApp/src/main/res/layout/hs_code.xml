@@ -53,11 +53,10 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Back"
+
             android:id="@id/backButton3"
-            android:background="?android:attr/selectableItemBackground"
+            android:background="@drawable/backbutton"
             android:layout_alignRight="@+id/scrollView"
-            android:layout_below="@+id/scrollView"
-            android:layout_alignParentBottom="true"/>
+            android:layout_below="@+id/scrollView"/>
 
 </RelativeLayout>

@@ -11,16 +11,19 @@ import android.widget.ImageView;
 
 
 public class Customs extends Activity {
-
+    private ImageView image;
+    private Button grossProfit;
+    private Button harmonisedCode;
+    private Button rulesOfOrigin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.customs_layout);
 
-        ImageView image = (ImageView) findViewById(R.id.logo_view);
+        image = (ImageView) findViewById(R.id.logo_view);
 
-        Button grossProfit = (Button) findViewById(R.id.grossProfitCost);
+        grossProfit = (Button) findViewById(R.id.grossProfitCost);
         grossProfit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,7 +32,7 @@ public class Customs extends Activity {
             }
         });
 
-        Button harmonisedCode = (Button) findViewById(R.id.hsCode);
+        harmonisedCode = (Button) findViewById(R.id.hsCode);
         harmonisedCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,7 +41,7 @@ public class Customs extends Activity {
             }
         });
 
-        Button rulesOfOrigin = (Button) findViewById(R.id.rulesOfOrigin);
+        rulesOfOrigin = (Button) findViewById(R.id.rulesOfOrigin);
         rulesOfOrigin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,7 +50,17 @@ public class Customs extends Activity {
             }
         });
 
-
+       /* Button cancelButton=(Button) findViewById(R.id.cancelButtonOnCus);
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                startActivity(intent);
+            }
+        });
+*/
 
 
     }

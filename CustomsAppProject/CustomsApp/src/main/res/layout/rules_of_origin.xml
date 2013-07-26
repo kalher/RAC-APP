@@ -7,7 +7,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="#17170432">
+        >
 
     <TextView
             android:layout_width="match_parent"
@@ -53,8 +53,8 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Back"
-            android:background="?android:attr/selectableItemBackground"
+
+            android:background="@drawable/backbutton"
             android:id="@id/backbutton2"
             android:layout_below="@+id/scrollView"
             android:layout_alignRight="@+id/scrollView"/>
